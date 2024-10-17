@@ -114,16 +114,16 @@ hr {
         font-size: 1.5em;
     }
 
-    .circular-image {
-        width: 60px;
-        height: 60px;
-    }
-
     .menu-item span {
         font-size: 1em;
     }
 
     .price {
         font-size: 0.9em;
+    }
+
+    /* Oculta todas las imágenes excepto el logo */
+    .menu-image, .image-left, .image-right {
+        display: none; /* Oculta las imágenes en pantallas pequeñas */
     }
 }
